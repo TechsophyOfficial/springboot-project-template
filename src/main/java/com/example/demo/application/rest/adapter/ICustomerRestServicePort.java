@@ -15,4 +15,5 @@ public interface ICustomerRestServicePort {
     PageResponse<CustomerResponse> findAll(int page, int size, String[] sort);
 
     void delete(BigInteger id);
+
 }
